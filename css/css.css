@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(215, 215, 250);
+}
+.botonInicio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#juegoNuevo {
+  margin: 1.5em;
+  margin-top: 0;
+  padding: 0.5em;
+  width: 30%;
+  background-color: rgb(109, 31, 31);
+  color: white;
+}
+#ejercicio {
+  overflow: visible;
+  width: 80%;
+  margin: auto;
+  padding: 1em;
+  border-right: solid 3px rgb(65, 7, 7);
+  border-bottom: solid 3px rgb(65, 7, 7);
+  border-radius: 5px;
+  background-color: rgb(109, 31, 31);
+}
+.carta {
+  width: 25%;
+  float: left;
+}
+@media screen and (min-width: 1200px) {
+  #ejercicio {
+    overflow: visible;
+    width: 60%;
+    margin: auto;
+  }
+  .carta {
+    height: 250px;
+    float: left;
+  }
+}
+#contador,
+#contadorFallos {
+  margin-left: 0.5em;
+  color: rgb(167, 161, 161);
+  text-decoration-line: underline overline;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2em;
+}
+
+.disabled {
+  opacity: 0.1;
+}
